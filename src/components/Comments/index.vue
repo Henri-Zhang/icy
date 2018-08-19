@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     fetchComments: async function() {
-      this.items = await Comments.fetchAll()
+      this.items = await Comments.fetch({ count: 5 })
     }
   }
 }

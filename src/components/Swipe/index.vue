@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     fetchImages: async function() {
-      this.images = await SwipeEngine.fetchImages()
+      this.images = await SwipeEngine.fetchImages({ count: 3 })
     }
   }
 }

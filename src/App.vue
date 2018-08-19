@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header-bar />
-    <van-list v-model="loading" :finished="finished" @load="onLoad" :loading="false" :offset="0" :immediate-check="false">
+    <van-list v-model="loading" :finished="finished" @load="onLoad" :loading="false" :offset="50" :immediate-check="false">
       <van-cell>
         <swipe />
       </van-cell>
@@ -13,16 +13,16 @@
       </van-cell>
     </van-list>
     <footer-bar />
-    <van-loading type="spinner" color="white" />
+
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
 import { Swipe, FooterBar, WeekUpdate, Comments, HeaderBar } from '@/components'
-import { List, Loading, Cell } from 'vant'
+import { List, Cell } from 'vant'
 
-Vue.use(List).use(Cell).use(Loading)
+Vue.use(List).use(Cell)
 
 export default {
   components: {

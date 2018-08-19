@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     fetchUpdates: async function() {
-      this.items = await WeekUpdate.fetchUpdates()
+      this.items = await WeekUpdate.fetchUpdates({ count: 7 })
     }
   }
 }
