@@ -27,7 +27,7 @@ export default {
     position: fixed;
     bottom: -.12rem;
     width: 100%;
-    height: 1.4rem;
+    height: .4rem;
     padding: 0;
     line-height: 1.4rem;
     background-color: white;

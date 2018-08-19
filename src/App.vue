@@ -53,6 +53,6 @@ export default {
 #app {
   position: relative;
   margin: 0 auto;
-  padding-bottom: 1.4rem;
+  padding-bottom: .4rem;
 }
 </style>
