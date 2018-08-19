@@ -4,13 +4,13 @@ var path = require('path')
 module.exports = {
   build: {
     env: require('./prod.env'),
-    index: path.resolve(__dirname, '../dist/index.html'),
-    assetsRoot: path.resolve(__dirname, '../dist'),
+    index: path.resolve(__dirname, '../docs/index.html'),
+    assetsRoot: path.resolve(__dirname, '../docs'),
     assetsSubDirectory: 'static',
     assetsPublicPath: './',
     proxyTable: {
       '/api': {
-        target: 'https://www.easy-mock.com/mock/5b764fec4d2b8f332fda9614', // 接口的域名
+        target: 'https://www.easy-mock.com/mock/5b78bbc8c8ce472d34912f4a', // 接口的域名
         secure: true,  // 如果是https接口，需要配置这个参数
         changeOrigin: true, // 如果接口跨域，需要进行这个参数配置
         pathRewrite: {
@@ -39,7 +39,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'https://www.easy-mock.com/mock/5b764fec4d2b8f332fda9614', // 接口的域名
+        target: ' https://www.easy-mock.com/mock/5b78bbc8c8ce472d34912f4a', // 接口的域名
         secure: true,  // 如果是https接口，需要配置这个参数
         changeOrigin: true, // 如果接口跨域，需要进行这个参数配置
         pathRewrite: {

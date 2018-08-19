@@ -35,8 +35,7 @@ export default {
   },
   methods: {
     fetchComments: async function() {
-      const result = await Comments.fetchAll()
-      this.items = result
+      this.items = await Comments.fetchAll()
     }
   }
 }

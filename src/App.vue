@@ -36,7 +36,7 @@ export default {
     return {
       loading: false,
       finished: false,
-      showComments: true
+      showComments: false
     }
   },
   methods: {
@@ -52,7 +52,6 @@ export default {
 <style lang="scss" scoped>
 #app {
   position: relative;
-  // max-width: 100%;
   margin: 0 auto;
 }
 </style>
