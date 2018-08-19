@@ -18,16 +18,16 @@ export default {
   },
   data() {
     return {
-      show: true,
+      show: false,
       searchValue: '连衣裙'
     }
   },
   methods: {
     handleScroll: function() {
-      if (document.documentElement.scrollTop < 100) {
-        this.show = false;
+      if (document.documentElement.scrollTop + document.body.scrollTop < 20) {
+        this.show = false
       } else {
-        this.show = true;
+        this.show = true
       }
     }
   }
@@ -36,6 +36,7 @@ export default {
 
 <style lang="scss" scoped>
 .top-header {
+  position: fixed;
   left: auto;
   width: 100%;
 }

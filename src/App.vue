@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header-bar />
-    <van-list v-model="loading" :finished="finished" @load="onLoad" :loading="false" :offset="50" :immediate-check="false">
+    <van-list v-model="loading" :finished="finished" @load="onLoad" :loading="false" :offset="100" :immediate-check="false">
       <van-cell>
         <swipe />
       </van-cell>
@@ -53,5 +53,6 @@ export default {
 #app {
   position: relative;
   margin: 0 auto;
+  padding-bottom: 1.4rem;
 }
 </style>

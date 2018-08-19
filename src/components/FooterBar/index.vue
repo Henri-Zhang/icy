@@ -25,7 +25,7 @@ export default {
 <style lang="scss">
   .footer-bar {
     position: fixed;
-    bottom: -.2rem;
+    bottom: -.12rem;
     width: 100%;
     height: 1.4rem;
     padding: 0;
