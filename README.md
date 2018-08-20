@@ -9,9 +9,9 @@ Nodejs， Ubuntu 16.04， VSCode
 ***
 
 ## 测试环境
-1. 电脑端
++ 电脑端
   * Chrome浏览器，Firefox浏览器
-2. Nubia N2手机
++ Nubia N2手机
   * 微信内置浏览器
   * QQ 浏览器
   * Nubia 浏览器
