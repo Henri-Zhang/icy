@@ -1,6 +1,6 @@
 # icy
 模仿爱穿衣icy.ichuanyi.com网站。<br>
-实现[icy.ichuanyi.com/icy/designer](icy.ichuanyi.com/icy/designer)页面部分模块。<br>
+实现[icy.ichuanyi.com/icy/designer](https://icy.ichuanyi.com/icy/designer)页面部分模块。<br>
 点击[此处](https://likedblack.github.io/icy/)浏览。
 ***
 
@@ -9,7 +9,12 @@ Nodejs， Ubuntu 16.04， VSCode
 ***
 
 ## 测试环境
-Chrome浏览器，Firefox浏览器，Nubia N2手机
+1. 电脑端
+  * Chrome浏览器，Firefox浏览器
+2. Nubia N2手机
+  * 微信内置浏览器
+  * QQ 浏览器
+  * Nubia 浏览器
 ***
 
 ## 所用技术及框架
